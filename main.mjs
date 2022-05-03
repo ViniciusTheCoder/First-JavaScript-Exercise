@@ -1,3 +1,4 @@
+import { Database } from "./database.mjs";
 try {
     const database = new Database();
     database.execute('create table author (id number, name string, age number, city string, state string, country string)'),
